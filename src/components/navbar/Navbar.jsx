@@ -1,27 +1,26 @@
-// import React from 'react' 
-import logo from '../../images/navlogo.png'
-
-import './Navbar.css'
+// import React from 'react';
+import logo from '../../images/navlogo.png';
+import './Navbar.css';
 
 function Navbar() {
-
   return (
     <nav className='container'>
-      <img src={logo} alt="logo" className='logo' />
-      
-     
+      <div className='logo-container'>
+        <img src={logo} alt="logo" className='logo' />
+      </div>
+      <input type="checkbox" id="menu-toggle" className="menu-toggle" />
+      <label htmlFor="menu-toggle" className="menu-icon">&#9776;</label>
       <ul className='link-container'>
-      <a href="/home"><li>Home</li></a>
-      <a href="/rice-items"><li>Rice Items</li></a>
-      <a href="/cattle-items"><li>Cattles Items</li></a>
-      <a href="/pricing"><li>Pricing</li></a>
-      <a href="/about"><li>About Us</li></a>
-      <a href="/contact"><li>Contact Us</li></a>
-      <a href="/foods"><li>Foods & Festivels</li></a>
+        <li><a href="/home">Home</a></li>
+        <li><a href="/rice-items">Rice Items</a></li>
+        <li><a href="/cattle-items">Cattles Items</a></li>
+        <li><a href="/pricing">Pricing</a></li>
+        <li><a href="/about">About Us</a></li>
+        <li><a href="/contact">Contact Us</a></li>
+        <li><a href="/foods">Foods & Festivals</a></li>
       </ul>
     </nav>
-
-  )
+  );
 }
- 
-export default Navbar
+
+export default Navbar;

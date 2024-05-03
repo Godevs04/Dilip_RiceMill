@@ -43,5 +43,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgements
 
-- Special thanks to [XYZ Company](https://godevs.me/GodevsPortfolio/) for providing inspiration and guidance for this project.
+- Special thanks to [Our Team](https://godevs.me/GodevsPortfolio/) for providing inspiration and guidance for this project.
 

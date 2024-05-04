@@ -26,7 +26,7 @@ This is the repository for the Modern Rice Mill website, a platform where custom
 
 To run the project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/Balaji-S-2024/Dileep-Rice-Bag.git`
+1. Clone the repository: `git clone https://github.com/Godevs04/Dilip_RiceMill.git`
 2. Navigate to the project directory: `cd modern-rice-mill`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm Run Dev`
